@@ -11,11 +11,15 @@ public class PrintEvenFrom0To100 {
 		
 	}
 		//Approach-2
-		for(int i=1 ; i<= 100; i++) {
+		for(int i=100 ; i<= 2; i--) {
 			if(i%2==0) {
 				System.out.println(i);
 			}
-		}
-
-  }
+		}	
+		
+	}
+	
 }
+
+  
+
